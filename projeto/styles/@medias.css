@@ -1,0 +1,229 @@
+@media(max-width: 1335px){
+    .logo{
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+    .logo img{
+        width:130px;
+    }
+
+    nav{
+        position: fixed;
+        width: 100%;
+        height: auto;
+        z-index: 9999;
+       
+      
+      
+    }
+    nav ul{
+        max-height: 0px;
+        background: #fff;
+        
+    }
+
+    nav.black ul{
+        
+        background: #fff;
+      box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.471);
+    }
+
+    .showing{
+       
+        max-height: 20em;
+    }
+
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        padding: 1px;
+        line-height: 10px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 900;
+      
+    }
+    nav ul li a:active{
+        color: rgba(0, 0, 0, 0.925);
+        transition: all .1s ease;
+      
+    }
+    .menu-icon{
+        display: block;
+    }
+  
+    .content{
+        width: 95%;
+        margin: 2em auto;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .area_menu{
+        background-color: rgb(52, 84, 126);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+        margin-right: 20%;
+        line-height: 30px;
+        margin-bottom: 20px;
+       
+    }
+    .section01{
+ 
+        padding: 3%;
+         width: 100vw;
+         height: 100vh;
+         background: linear-gradient(160deg, rgba(100,176,233,1) 0%, rgba(68,191,157,1) 35%, rgba(218,228,93,1) 100%);
+         display: flex;
+         justify-content: left;
+         align-items: center;
+        
+     }
+    .section01 img{
+     display: none;
+        
+    }
+
+    .section01 h1{
+       
+        font-size:50px;
+        font-weight: 800;
+        line-height: 60px;
+        width: 100%;
+        color: #fff;
+    
+       
+    }
+    .section01 p{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+        line-height: 20px;
+        color: #fff;
+        width: 90%;
+    }
+    .section01 button{
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 40px;
+        border: none;
+        background-color: #fff;
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+     
+    
+    }
+    .section02{
+    
+        width: 100vw;
+        height: 210vh;
+        background: #fff;
+      
+    }
+    .section02 h1{
+        margin-left: -10px;
+        font-size: 30px;
+       
+     }
+     .section02 h2{
+        margin: 0px auto;
+        width:70%;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .section02 p{
+        width: 90%;
+       font-size: 16px;
+      
+    }
+
+  #s{
+      display: none;
+  }
+
+    .section03{
+        
+        background: linear-gradient(90deg, #548DA9 0%, #36A2D7 100%);
+        width: 100vw;
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 15px;
+        color: #fff;
+    }
+    
+    .section03 i{
+        color:  #B5C84B;
+        font-size: 60px;
+    }
+    
+    .section03 p{
+      text-align: justify;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      width: 90%;
+    }
+    .section03 h5{
+     
+        font-size: 25px;
+    }
+
+    .section04{
+        width: 100vw;
+        height: 230vh;
+       text-align: center;
+    }
+    .section05{
+        width: 100vw;
+        height: 150vh;
+       text-align: center;
+    }
+
+    .section04 h1{
+        padding-left: 16%;
+        color: #B5C84B;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 111.5%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    .section05 h1{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 40px;
+        color: #548DA9;
+        
+      }
+      .section05 .card i{
+        position: block;
+        left: 20px;
+        top: -10px;
+        font-size:30px;
+       color: #548DA9;
+       border: none;
+       border-radius: none;
+       width: 100px;
+       height: 80px;
+       padding-left:0px;
+       padding-top: 0px;
+      
+    
+    }
+   
+}
