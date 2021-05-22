@@ -1,11 +1,25 @@
 @media(max-width: 1335px){
+    html, body{
+        margin: 0;
+        padding: 0;
+       
+       overflow-x: hidden;
+    }
     .logo{
         position: fixed;
         top: 0;
         margin-top: 16px;
     }
     .logo img{
-        width:130px;
+        width:200px;
+    }
+
+    #logobranca{
+        display: none;
+    }
+
+    #logocor{
+        display: block;
     }
 
     nav{
@@ -13,24 +27,25 @@
         width: 100%;
         height: auto;
         z-index: 9999;
-       
-      
-      
+        background-color: #fff;
+        box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.471);
+     
     }
+    
     nav ul{
-        max-height: 0px;
+        max-height: 20px;
         background: #fff;
-        
+     
     }
 
     nav.black ul{
-        
+        box-shadow: none;
         background: #fff;
-      box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.471);
+    
     }
 
     .showing{
-       
+        background: #fff;
         max-height: 20em;
     }
 
@@ -38,7 +53,7 @@
         box-sizing: border-box;
         width: 100%;
         text-align: center;
-        padding: 1px;
+        padding: 15px;
         line-height: 10px;
     }
     nav ul li a{
@@ -55,6 +70,7 @@
     }
     .menu-icon{
         display: block;
+     
     }
   
     .content{
@@ -122,14 +138,16 @@
     
     }
     .section02{
-    
+        padding-left: 20px;
+   
         width: 100vw;
-        height: 210vh;
+        height: auto;
         background: #fff;
+        margin-bottom: 50px;
       
     }
     .section02 h1{
-        margin-left: -10px;
+        margin-left: -22px;
         font-size: 30px;
        
      }
@@ -155,13 +173,15 @@
         
         background: linear-gradient(90deg, #548DA9 0%, #36A2D7 100%);
         width: 100vw;
-        height: 120vh;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 0;
-        padding-right: 15px;
+        padding-left: 30px;
+        margin-bottom: 50px;
         color: #fff;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     
     .section03 i{
@@ -183,20 +203,26 @@
 
     .section04{
         width: 100vw;
-        height: 230vh;
+        height: auto;
        text-align: center;
+      margin-bottom: 50px;
     }
     .section05{
         width: 100vw;
-        height: 150vh;
+        height: auto;
        text-align: center;
+       padding-top: 60px;
+       padding-bottom: 50px;
+       padding-left: 8%;
+       padding-right:8%;
     }
 
     .section04 h1{
-        padding-left: 16%;
+   
+        padding-left: 22%;
         color: #B5C84B;
         font-weight: 800;
-        font-size: 64px;
+        font-size: 50px;
         line-height: 111.5%;
         margin-bottom: 50px;
         margin-top: 50px;
@@ -225,5 +251,102 @@
       
     
     }
+    .section06{
+        padding-left: 8%;
+        padding-right:8%;
+    }
+
+    .section06 h1{
+     padding-top: 30px;
+
+       
+    }
+    .section06 p{
+       margin-bottom: 20px;
+   
+          
+       }
+    .section06 h1{
+        font-weight: 800;
+        font-size: 40px;
+        color: #548DA9;
+       margin: 0 auto;
+       text-align: center;
+       
+    }
+
+    .section06 .card{
+        width: 100%;
+        margin-bottom: 3%;
+        min-height:400px;
+        max-height: 100%;
+        
+    }
+    
+    
+    
+    .section07{
+        padding-top: 50px;
+        padding-left: 5%;
+        padding-right:5%;
+    }
+    .section07 h1{
+        font-size: 30px;
+    }
+.section08{
+    padding-left: 8%;
+    padding-right:8%;
+    
+}
+    .abrem{
+        background: rgba(255, 255, 255, 0.89);
+        border-radius: 10px 10px 10px 10px;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        box-shadow: 0px 0px 28px 1px rgba(38, 38, 38, 0.43);
+    }
+    .item input:checked ~ ul{
+        height: inherit;
+        max-height: 1000px;
+        min-height: 500px;
+        transform: all;
+        transition: all .9s;
+    }
+
+    .mapaSection img{
+        width: auto;
+       height: 100%;
+     }
+
+     .section08 h1{
+        font-weight: 800;
+        font-size: 30px;
+       
+       margin: 0 auto;
+       text-align: center;
+     }
+.section08{
+    padding-top: 50px;
+        padding-left: 5%;
+        padding-right:5%;
+}
+.section08 h1{
+   margin-bottom: 10px;
+}
+     .section08 h5{
+      
+        font-size: 20px;
+       margin: 0 auto;
+       margin-bottom: 20px;
+       text-align: center;
+     }
+
+     .section08 .card{
+         margin-bottom: 20px;
+     }
    
 }
